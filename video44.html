@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid EX 7</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 40px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 10px 10px;
+            display: flex;
+            align-items: cent18;
+        }
+
+        div img {
+            width: 150px;
+            height: 50px;
+
+        }
+
+
+        .container {
+            
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .items {
+            
+            text-align: center;
+            border-radius: 5px;
+            background-color: rgb(243, 239, 239);
+        }
+        .items h3{
+            padding: 20px;
+        }
+        button{
+            text-decoration: none;
+            margin: 20px;
+            padding: 6px;
+            background-color: green;
+            border: none;
+            border-radius: 8px;
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header>
+        <nav>
+            <div>
+
+                <img src="./Img/UE-Logo-1.webp" alt="">
+            </div>
+            <ul>
+                <li> <span>Product</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+                <li><span> Pricing </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+                <li><span>Resources </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+                <li><span>About Us </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+                <li><span>Security nad Compliance </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="items">
+            <h3>English</h3>
+          <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+        </div>
+        <div class="items">
+            <h3>Deutsch</h3>
+            <p>German</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>        
+        </div>
+        <div class="items">
+            <h3>ITLIANO</h3>
+            <p>Italian</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+                </div>
+        <div class="items">
+            <h3>Español</h3>
+            <p>Spanish</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+                </div>
+        <div class="items">
+            <h3>Français</h3>
+            <p>French</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+                </div>
+        <div class="items">
+            <h3>Português Brasileiro</h3>
+            <p>Brazilian Portuguese</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+                </div>
+        <div class="items">
+            <h3>日本</h3>
+            <p>Japanese</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+                </div>
+        <div class="items">
+            <h3>한국어</h3>
+            <p>Korean</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+                </div>
+        <div class="items">
+            <h3>中国</h3>
+            <p>Chinese</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+                </div>
+        <div class="items">
+            <h3>中國</h3>
+            <p>Traditional Chinese</p>
+            <button> <a href="ue_english_64.exe">DOWNLOAD 64-bit</a></button>
+                </div>
+    </div>
+</body>
+
+</html>

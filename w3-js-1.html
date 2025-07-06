@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 Schools First Exercise</title>
+    
+    
+</head>
+
+<body>
+    <h2>My First JavaScript</h2>
+    <button type="button" onclick="document.getElementById ('time').innerHTML = Date()">Click Me To See Date and
+        Time</button>
+<p id="time"></p>
+
+
+<br>
+
+<h2>What Can JavaScript Do?</h2>
+<p id="change">This will change onclick</p>
+<button type="button" onmouseenter="document.getElementById ('change').innerHTML ='Hello JavaScript!'">Click Me To See Change</button>
+
+
+<br>
+<br>
+<br>
+
+<button type="button" onclick='document.getElementById ("myLight").src = "./Img/bulbon.png" '>Turn On The Light</button>
+
+<img id="myLight" src="./Img/bulb.png" style="width:100px">
+
+<button type="button" onclick="document.getElementById ('myLight').src = './Img/bulb.png'">Turn Off The Light</button>
+
+<br>
+<br>
+
+<p id="fsize">See What Can Be Change</p>
+<button type="button" onclick="document.getElementById ('fsize').style.fontSize='25px'">Click Me To See Change</button>
+
+
+
+<br>
+<br>
+
+<p id="hide">This Will Be hide</p>
+<button type="button" onclick="document.getElementById ('hide').style.display='none'">Click Me To See Change</button>
+
+
+
+<br>
+<br>
+<p>JavaScript can show hidden HTML elements.</p>
+<p id="show" style="display: none;">Hellloooooo!</p>
+<button type="button" onclick="document.getElementById ('show').style.display='block'">Click Me To See Change</button>
+
+</body>
+</html>
